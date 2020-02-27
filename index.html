@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Portafolio</title>
+</head>
+
+<body>
+    <header id="header">
+        <a href="" class="logo">Al Shaw</a>
+        <ul>
+            <li><a href="#home" class="active"></a>Home</li>
+            <li><a href="#about" onclick="toggle()"></a>about</li>
+            <li><a href="#services" onclick="toggle()"></a>service</li>
+            <li><a href="#portafolio" onclick="toggle()"></a>portafolio</li>
+            <li><a href="#contact" onclick="toggle()"></a>contact</li>
+        </ul>
+        <div class="toggle" onclick="toggle()"></div>
+    </header>
+    <section id="home">
+        <div>
+            <h2>Full Stack Web Developer</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus explicabo eius exercitationem aliquid
+                blanditiis obcaecati omnis consectetur? Esse vel rerum praesentium laborum cumque maxime nesciunt eaque
+                aperiam quia, error corporis doloremque ab voluptas magnam sapiente perferendis voluptatibus maiores
+                mollitia, excepturi quam deserunt repellendus neque consequatur! Dolores incidunt asperiores porro
+                repudiandae harum ea inventore iusto vitae aut numquam? Error consequatur officiis unde non amet
+                provident veritatis iste impedit nisi repellendus molestiae odio earum, at velit. Illo repudiandae velit
+                dignissimos itaque reiciendis ullam qui ipsam unde odio voluptatibus tempora adipisci nostrum quae, ipsa
+                ab fuga ex soluta nesciunt deleniti earum delectus nulla.</p>
+            <a href="#">Read More</a>
+        </div>
+        <img src="images/alvarovertical copy.jpg">
+    </section>
+
+    <section id="about">
+        <div>
+            <h2>About </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus explicabo eius exercitationem aliquid
+                blanditiis obcaecati omnis consectetur? Esse vel rerum praesentium laborum cumque maxime nesciunt eaque
+                aperiam quia, error corporis doloremque ab voluptas magnam sapiente perferendis voluptatibus maiores
+                mollitia, excepturi quam deserunt repellendus neque consequatur! Dolores incidunt asperiores porro
+                repudiandae harum ea inventore iusto vitae aut numquam? Error consequatur officiis unde non amet
+                provident veritatis iste impedit nisi repellendus molestiae odio earum, at velit. Illo repudiandae velit
+                dignissimos itaque reiciendis ullam qui ipsam unde odio voluptatibus tempora adipisci nostrum quae, ipsa
+                ab fuga ex soluta nesciunt deleniti earum delectus nulla.</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <div>
+            <h2>Services</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus explicabo eius exercitationem aliquid
+                blanditiis obcaecati omnis consectetur? Esse vel rerum praesentium laborum cumque maxime nesciunt eaque
+                aperiam quia, error corporis doloremque ab voluptas magnam sapiente perferendis voluptatibus maiores
+                mollitia, excepturi quam deserunt repellendus neque consequatur! Dolores incidunt asperiores porro
+                repudiandae harum ea inventore iusto vitae aut numquam? Error consequatur officiis unde non amet
+                provident veritatis iste impedit nisi repellendus molestiae odio earum, at velit. Illo repudiandae velit
+                dignissimos itaque reiciendis ullam qui ipsam unde odio voluptatibus tempora adipisci nostrum quae, ipsa
+                ab fuga ex soluta nesciunt deleniti earum delectus nulla.</p>
+        </div>
+    </section>
+
+    <section id="portafolio">
+        <div>
+            <h2>Portafolio</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus explicabo eius exercitationem aliquid
+                blanditiis obcaecati omnis consectetur? Esse vel rerum praesentium laborum cumque maxime nesciunt eaque
+                aperiam quia, error corporis doloremque ab voluptas magnam sapiente perferendis voluptatibus maiores
+                mollitia, excepturi quam deserunt repellendus neque consequatur! Dolores incidunt asperiores porro
+                repudiandae harum ea inventore iusto vitae aut numquam? Error consequatur officiis unde non amet
+                provident veritatis iste impedit nisi repellendus molestiae odio earum, at velit. Illo repudiandae velit
+                dignissimos itaque reiciendis ullam qui ipsam unde odio voluptatibus tempora adipisci nostrum quae, ipsa
+                ab fuga ex soluta nesciunt deleniti earum delectus nulla.</p>
+        </div>
+    </section>
+
+   
+
+    <section id="contact">
+        <div>
+            <h2>contact</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus explicabo eius exercitationem aliquid
+                blanditiis obcaecati omnis consectetur? Esse vel rerum praesentium laborum cumque maxime nesciunt eaque
+                aperiam quia, error corporis doloremque ab voluptas magnam sapiente perferendis voluptatibus maiores
+                mollitia, excepturi quam deserunt repellendus neque consequatur! Dolores incidunt asperiores porro
+                repudiandae harum ea inventore iusto vitae aut numquam? Error consequatur officiis unde non amet
+                provident veritatis iste impedit nisi repellendus molestiae odio earum, at velit. Illo repudiandae velit
+                dignissimos itaque reiciendis ullam qui ipsam unde odio voluptatibus tempora adipisci nostrum quae, ipsa
+                ab fuga ex soluta nesciunt deleniti earum delectus nulla.</p>
+        </div>
+    </section>
+
+    <script type="text/javascript">
+        function toggle() {
+            var header = document.getElementById("header")
+            header.classList.toggle('active')
+        }
+    </script>
+
+<footer>&copy; Copyright alshaw 2020</footer>
+
+<ul class="medias">
+<div class="icons">
+        <li><a href="https://www.facebook.com/alshaw6" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+    </div>
+    <div class="icons">
+        <li><a href="https://www.instagram.com/alshaw6" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+    </div>
+    <div class="icons">
+            <li><a href="https://www.linkedin.com/in/alvaro-shaw" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+        </div>
+</ul>
+
+</body>
+
+</html>
